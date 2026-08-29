@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+myvenv/
+venv/
+.venv/
+env/
+ENV/
+
+# MLflow tracking and artifacts
+mlruns/
+mlartifacts/
+mlflow.db
+*.sqlite
+*.sqlite3
+*.db
+
+# Environment variables
+.env
+.env.*
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+Thumbs.db
