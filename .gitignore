@@ -34,3 +34,8 @@ mlflow.db
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Documents / PDFs
+Session 37 - Model Registry.pdf
+*.pdf
+
