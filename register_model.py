@@ -8,11 +8,8 @@ client = MlflowClient()
 # Replace with the run_id of the run where the model was logged
 run_id = "ef32f116f63c4ad399f777909c1be480"
 
-# Replace with the path to the logged model within the run
-model_path = "file:C:/Users/sujat/projects/ML-Main/model-registry-start/mlruns/1/models/m-03a1a136dd334729830ccf5a899a6ec3/artifacts/MLmodel"
-
-# Construct the model URI
-model_uri = f"runs:/{run_id}/{model_path}"
+# Construct the model URI using the artifact name ('random_forest')
+model_uri = f"runs:/{run_id}/random_forest"
 
 # Register the model in the model registry
 model_name = "diabetes-rf"
